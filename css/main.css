@@ -1,0 +1,182 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.lang {
+	padding: 5px 5px;
+}
+
+#two img {
+	width: 10%;
+	height: 10%;
+}
+.navbar {
+	margin-bottom: 50px;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	background-color: #16a596;
+}
+
+
+element.style {
+}
+.navbar-default .navbar-nav>li>a {
+    color: #eee;
+}
+.navbar-default .navbar-nav>li:hover>a {
+    color: #fff;
+}
+.dropdown-menu>li>a {
+	color:#333;
+}
+.navbar-collapse {
+	width: 100%;
+	height: 100%;
+}
+
+.navbar-brand {
+	background-color: #9ad3bc;
+}
+.collapse{
+	background-color: #16a596;
+}
+
+.navbar .navbar-brand img {
+	width: 50px;
+	margin-top: -21px;
+}
+
+.dropdown:hover ul {
+	display: block;
+}
+.carousel-indicators{
+	width: 6%;
+}
+.carousel-indicators li{
+	text-indent: 0;
+}
+.carousel-inner .image {
+	overflow: hidden;
+}
+
+.one {
+	overflow: hidden;
+}
+
+.carousel-inner .item img {
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+	animation: zoom 30s;
+}
+
+@keyframes zoom {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.1, 1.1);
+	}
+}
+
+#sex {
+	padding: 100px 0;
+	background-color: #2d6187;
+}
+
+#sex .num1 {
+	margin: 2px;
+	display: flex;
+	justify-content: center;
+}
+
+#sex .num2 {
+	margin: 5px;
+	border-radius: 180px;
+	border-left: 8px solid #28abb9;
+	border-right: 8px solid #28abb9;
+	text-align: center;
+}
+
+#sex .row .numscroller {
+	font-size: 45px;
+}
+
+#eight {
+	padding: 50px;
+}
+
+#eight embed {
+	width: 400px;
+	height: 250px;
+	padding-bottom: 5px;
+}
+
+.panel-title {
+	padding: 10px;
+}
+
+.panel-heading a:after {
+	font-family: 'Glyphicons Halflings';
+	font-size: 20px;
+	content: "\2212";
+	float: left;
+	color: grey;
+}
+
+.panel-heading a.collapsed:after {
+	content: "\2b";
+}
+
+.panel-heading a:after {
+	font-family: 'Glyphicons Halflings';
+	font-size: 25px;
+	content: "\2212";
+	float: left;
+	color: darkorange;
+}
+
+.panel-heading a.collapsed:after {
+	content: "\2b";
+}
+
+article {
+	background-color: #E0E0E0;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+figure img {
+	width: 100%;
+	height: 100%;
+}
+
+.glyphicon-folder-open, .glyphicon-user, .glyphicon-calendar, .glyphicon-eye-open, .glyphicon-comment {
+	padding: 5px;
+}
+
+.row1 {
+	margin-top: 40px;
+	padding: 0 10px;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.panel-heading span {
+	margin-top: -20px;
+	font-size: 15px;
+}
+.yil{
+	color:blue  ;
+	text-shadow: 1px 0 goldenrod,1px 0 goldenrod;
+	font-size: 25px;
+}

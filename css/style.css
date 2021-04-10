@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Irish Grover', cursive;
+   
+    
+    
+}
+body{
+    background-color: rgba(93, 177, 166, 0.241);
+}
+.header{
+    width: 100%;
+    height: 500px;
+    background:linear-gradient(rgba(255, 255, 255, 0),rgb(255,255,255,034)),url('../image/bac.jpg');
+    background-size: cover;
+}
+.header .logo{
+    font-size: 35px;
+    float: left;
+    margin: 10px;
+    color:rgb(231, 242, 241);
+    letter-spacing: 3px;
+}
+.header .menu{
+    background-color: linen;
+    border-radius: 20px;
+    width: 53%;
+    height: 30px;
+    float: right;
+    margin: 50px;
+    align-items: center;
+    display: flex;
+    
+   
+
+    
+}
+.header .menu li{
+   
+    margin:0 40px;
+    list-style-type: none;
+    justify-content: center;
+    
+    
+    
+
+
+    
+}
+@media screen and (max-width:700px){
+    .header .menu{
+        display: block;
+        width: 200px;
+        height: 200px;
+    }
+    .header .menu>li{
+        color: wheat;
+        text-align: center;
+        margin: 10px;
+    }
+   
+}
+.header .menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    
+}
+.header .menu li a:hover{
+    border-bottom: black 2px solid;
+   
+
+}
+.header .icone{
+    background-color: black;
+    display: block;
+    width: 12px;
+    align-items: center;
+}
+.about-as{
+    display: flex;
+    margin: 30px;
+}
+.about-as .image>img{
+    width: 600px;
+    height: 500px;
+    border-radius:20px 20px 20px 7px;
+    box-shadow: black -20px 20px 20px;
+}
+.about-as .text-about{
+
+    height: 350px;
+    width: 350px;
+    margin-left:250px;
+    
+  
+}
+.about-as .text-about>p{
+    text-align: center;
+    line-height:60px;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 5px;
+
+}
+@media screen and (max-width:700px){
+    .about-as{
+        display: inline-block;
+        margin: 25px;
+    }
+    .about-as .image>img{
+        width: 350px;
+        height:300px;
+    }
+    .about-as .text-about{
+        margin: 30px;
+        height: 200px;
+        width: 250px;
+        
+    }
+    .about-as .text-about>p{
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+}
+
+.menu-our{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgba(171, 240, 219, 0.33);
+    justify-content: center;
+    align-items: center;
+   
+    
+
+}
+.menu-our .menuour{
+    border: rgb(80, 136, 135) solid 5px;
+    margin: 20px;
+    background-color: rgb(100, 157, 157);
+    border-radius: 0 20px;
+}
+.menu-our .menusimg{
+    width: 270px;
+    height:200px;
+    border-radius: 0 20px 0 0;
+}
+.menu-our .text,.fiat{
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 10px;
+    letter-spacing: 5px;
+}
+.menu-our .titel{
+    margin-left: 10px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.menu-our .menuour:hover{
+    box-shadow: black -11px 11px 11px;
+    width: 275;
+    height:300px;
+}
+.contect{
+    display: flex;
+    background-color: rgb(204, 229, 230);
+}
+.contect .contect-items{
+    margin: 75px;
+  
+}
+.contect .contect-items>iframe{
+    width: 400px;
+    height: 300px;
+}
+.contect .contect-items>fieldset{
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: rgb(36, 114, 114);
+    box-shadow: black -15px 15px 15px;
+}
+.contect .contect-items>fieldset>form{
+  text-align: center;
+}
+.contect .contect-items>fieldset>form>input,button{
+    margin: 20px; 
+    margin-top:5px;
+    
+}
+.contect .contect-items>ul{
+    list-style-type: none;
+}
+.contect .contect-items>ul>li{
+    margin: 30px;
+}
+.contect .contect-items>ul>li>a>i{
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+.buton{
+    background-color: rgb(1, 10, 10);
+    border-radius: 30px;
+    width: 150px;
+    height:40px;
+    color: bisque;
+    font-size: 20px;
+}
+@media screen and (max-width:700px){
+    .contect{
+        display: inline-block;
+    }
+    .contect .contect-items>fieldset{
+        width: 300px;
+    }
+    .contect .contect-items>iframe{
+        width: 300px;
+    }
+
+}
+.foter{
+    width: 100%;
+    height: 40px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+background: rgb(207,231,250); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=1 ); /* IE6-9 */
+
+    text-align: center;
+    letter-spacing: 3px;
+    
+}
+.foter>h2>a{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
